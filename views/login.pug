@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title Blog Post
+    link(href='/css/login.css', rel='stylesheet')
+  body
+    form(method="POST" action='/users/dashboard')
+      div.content
+        label(for='subject') Subject:
+        input(type='text', placeholder='subject' name='subject' required autofocus)
+        div.blogtext
+          label(for='blogpost') Blog Post:
+        textarea(type="textarea" rows="6" cols="50" placeholder="Enter Post Text here..." name="blogpost" required)
+        button(type="submit") Submit

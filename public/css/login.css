@@ -1,0 +1,22 @@
+html{
+    background-color: Silver;
+}
+.content{
+    background-color: White;
+    padding: 10px;
+    border: solid 1px Black;
+    margin: auto;
+    width: 400px;
+    text-align: center;
+}
+.box{
+    float:right;
+    padding: 10px;
+    border: solid 1px Black;
+}
+.blogtext{
+  text-align: left;
+}
+.clear{
+    clear: both;
+}
